@@ -1,5 +1,5 @@
-import 'package:iris_runtime_cache/src/runtimeKv.dart';
-import 'package:iris_runtime_cache/src/runtimeScope.dart';
+import 'package:iris_runtime_cache/src/runtime_kv.dart';
+import 'package:iris_runtime_cache/src/runtime_scope.dart';
 
 class IrisRuntimeCache {
   static final List<RuntimeKv> _list = [];

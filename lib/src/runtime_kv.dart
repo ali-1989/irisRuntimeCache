@@ -1,5 +1,4 @@
-
-import 'package:iris_runtime_cache/src/runtimeScope.dart';
+import 'package:iris_runtime_cache/src/runtime_scope.dart';
 
 class RuntimeKv<K,V> {
   late RuntimeScope scope;
@@ -42,6 +41,6 @@ class RuntimeKv<K,V> {
   }
 
   void longTimeKeepUpdate(){
-    lastUpdate = DateTime.now().add(Duration(days: 100));
+    lastUpdate = DateTime.now().add(const Duration(days: 100));
   }
 }
